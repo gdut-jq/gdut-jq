@@ -6,15 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c5464e4-a284-4cdf-b840-e6e65a1b7c3b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Duplicate_check_jar/Duplicate check.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Duplicate check/Duplicate check.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Duplicate check/DuplicateCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Duplicate check/DuplicateCheck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DuplicateCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DuplicateCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
-    </list>
+    <list default="true" id="7c5464e4-a284-4cdf-b840-e6e65a1b7c3b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,23 +22,18 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectId" id="1hdrzRxZ6T3EdocgKFdexKD7gFJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
-    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
-    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
-    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="duplicate_check" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/DuplicateCheck.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Duplicate check" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -76,7 +63,6 @@
     <configuration name="DuplicateCheck" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DuplicateCheck" />
       <module name="Duplicate check" />
-      <option name="PROGRAM_PARAMETERS" value="C:\test\Original_document.txt C:\test\Duplicate_file.txt D:\3118005366.txt" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,11 +86,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.DuplicateCheck" />
-      <item itemvalue="JUnit.DuplicateCheckTest" />
-      <item itemvalue="JUnit.DuplicateCheckTest.main" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.DuplicateCheckTest.main" />
@@ -130,9 +111,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>

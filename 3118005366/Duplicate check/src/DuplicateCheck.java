@@ -25,28 +25,28 @@ public class DuplicateCheck {
         float RN=0;//每句话的重复率总和
         float R=0;//每句话的重复率
 
-        String[] paperX=change(sX).split("。");//将论文按句号拆分为字符串数组
         String[] paper=change(s).split("。");//将论文按句号拆分为字符串数组
-        String resultadd=sOut;//输出结果地址
+        String[] paperX=change(sX).split("。");//将论文按句号拆分为字符串数组
 
         //判断论文句子的重复性，如果重复，这计算其重复字数
         for(int i=0;i<paper.length;i++){
             paper[i]=paper[i].replaceAll("[^\u4E00-\u9FA5]","");//除去句子中的所有标点符号，只保留中文。
             for(int j=0;j<paperX.length;j++){
                 paperX[j]=paperX[j].replaceAll("[^\u4E00-\u9FA5]","");//除去句子中的所有标点符号，只保留中文。
-                if(R<sentenceDuplication(paper[i],paperX[j])){
-                    R=sentenceDuplication(paper[i],paperX[j]);
+                float rs=sentenceDuplication(paper[i],paperX[j]);
+                if(R<rs){
+                    R=rs;
                 }
             }
             RN=RN+R;
         }
-
         repetRate=RN/paper.length;
+
         repetRate=(float) ((int)(repetRate*100))/100;//保留两位小数
 
         System.out.println("相似度："+repetRate);
 
-        out(repetRate,resultadd);
+        out(repetRate,sOut);
     }
 
     //句子查重算法
@@ -65,7 +65,7 @@ public class DuplicateCheck {
         for(int i=0;i<chars.length;i++){
             for(int j=0;j<charsX.length;j++){
                 if(chars[i]==charsX[j]){
-                    charsX[j]='*';//把以匹配的字符转化为非中文字符，防止二次匹配
+                    charsX[j]='\0';//把以匹配的字符转化为非中文字符，防止二次匹配
                     repetNumber++;
                     break;
                 }
