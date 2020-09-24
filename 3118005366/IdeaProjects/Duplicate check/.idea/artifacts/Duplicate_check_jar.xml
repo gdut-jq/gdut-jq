@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Duplicate check:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Duplicate_check_jar</output-path>
+    <root id="archive" name="Duplicate check.jar">
+      <element id="module-output" name="Duplicate check" />
+    </root>
+  </artifact>
+</component>
